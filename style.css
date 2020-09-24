@@ -1,0 +1,26 @@
+
+
+.loading {
+  display: inline-block;
+  margin: center;
+  margin-top: 200px;
+  border-width: 50px;
+  border-radius: 50%;
+  animation: spin 1.8s linear infinite;
+  }
+
+.style-1 {
+  border-style: solid;
+  border-color: #339ff2 transparent;
+  }
+
+
+@keyframes spin {
+  100% {  transform: rotate(359deg); }
+  }
+
+/* Base styles */
+html {
+  background: #eee url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/billie_holiday.png');
+  text-align: center;
+  }
